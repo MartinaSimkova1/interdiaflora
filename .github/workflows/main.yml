@@ -11,6 +11,6 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.interdiaflora.cz:21
+        server: ftp.interdiaflora.cz
         username: martinasimkova.interdiaflora.cz
         password: ${{ secrets.ftp_password }}
