@@ -5,36 +5,83 @@
 
 <body>
     <div class="main-div">
-        <div class="menu-div">
-            <button class="tab-button">HOME</button>
-            <button class="tab-button">HELP</button>
-            <button class="tab-button">LIFE ADVICE</button>
-            <button class="tab-button">LOCATION</button>
+        <div class="side-by-side">
+            <div class="title-container">
+                <img src="assets/interdiafloraLogo.jpg" class="logo" width="50px" height="84px">
+                <div>
+                    <div class="title">
+                        Interdia Flora
+                    </div>
+                    <div class="subtitle">
+                        Diabetologická, interní a endokrinologická ambulance
+                    </div>
+                </div>
+                <div class="menu-div">
+                    <button class="tab-button button-selected" onclick="location.href='index.html';">AMBULANCE</button>
+                    <button class="tab-button" onclick="location.href='about-us.html';">O NÁS</button>
+                    <button class="tab-button" onclick="location.href='for-patients.html';">PRO PACIENTY</button>
+                    <button class="tab-button" onclick="location.href='contact.html';">KONTAKT</button>
+                </div>
+            </div>
+            
+            <img src="assets/interdiaflora.jpg" width="220px">
+        </div>
+        
+        <div class="alert">
+            <img src="assets/alert.png" class="icon" width="55px" height="55px">
+            <div>
+                Naše ambulance je zavřena od 21.prosince do 27.prosince. <br>28.prosince a 29.prosince ordinujeme pouze do 12 hodin.
+            </div>
         </div>
 
-        <p class="closed">
-            <img src="assets/calendar.png" class="icon" width="36px" height="36px">
-            We are closed from the 24th to the 67th
+
+        <p class="generic-container">
+            <img src="assets/help-circle.png" class="inline-icon">
+            <h>Čím se zabýváme?</h><br>
+            Diabetologická, interní a endokrinologická ambulance<br>
         </p>
 
-        <p class="opening-hours">
-            <h>Opening hours</h><br>
-            we are open 24/7<br>
-            please come in<br>
+        <p class="generic-container">
+            <img src="assets/help-circle.png" class="inline-icon">
+            <h>Jaké další služby nabízíme?</h><br>
+            Vyšetření očního pozadí<br>
         </p>
-
-        <p class="contact">
-            <h>Contact us</h><br>
-            address: 13 hell road<br>
-            email: /dev/null<br>
-            telephone: 6666666666<br>
+        <p class="generic-container">
+            <table class="opening-hours-table">
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Hours</th>
+                </tr>
+                <tr>
+                    <td>Pondělí</td>
+                    <td>7:00-12:00, 13:00-15:00</td>
+                </tr>
+                <tr>
+                    <td>Úterý</td>
+                    <td>7:00-12:00, 13:00-15:00</td>
+                </tr>
+                <tr>
+                    <td>Středa</td>
+                    <td>7:00-12:00</td>
+                </tr>
+                <tr>
+                    <td>Čtvrtek</td>
+                    <td>Zavřeno</td>
+                </tr>
+                <tr>
+                    <td>Pátek</td>
+                    <td>Zavřeno</td>
+                </tr>
+                <tr>
+                    <td>Sobota</td>
+                    <td>Zavřeno</td>
+                </tr>
+                <tr>
+                    <td>Neděle</td>
+                    <td>Zavřeno</td>
+                </tr>
+            </table>
         </p>
-
-        Diabetologická a endokrinologická ambulance<br>
-        more text<br>
-        more text<br>
-        more text<br>
-        javascript is bad<br>
-        more text<br><br>
     </div>
+    
 </body>
