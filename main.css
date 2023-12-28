@@ -51,7 +51,7 @@ body {
     margin-bottom: 10px;
 }
 
-.subtitle {
+.subtitle h1 {
     font-size: 20px;
     color: #0080d6;
     font-weight: 700;
@@ -65,7 +65,7 @@ body {
     font-size: 18px;
 }
 
-.generic-container h {
+.generic-container h2 {
     font-size: 20px;
     color: #ff0000;
     font-weight: 700;
