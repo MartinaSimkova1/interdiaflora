@@ -119,7 +119,6 @@ body {
 
 .icon {
     vertical-align: middle;
-    padding-right: 15px;
 }
 
 .inline-icon {
@@ -153,6 +152,10 @@ body {
 
 .contact-table tr {
     height: 40px;
+}
+
+.contact-table-icon {
+    padding-right: 10px;
 }
 
 .contact-table-type {
