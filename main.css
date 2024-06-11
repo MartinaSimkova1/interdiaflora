@@ -72,8 +72,15 @@ body {
 }
 
 .side-by-side {
+  width: 100%;
   display: flex;
-  flex: 1;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.image {
+  float: right;
+  margin-left: auto;
 }
 
 .side-by-side-margin {
